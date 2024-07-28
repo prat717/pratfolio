@@ -40,6 +40,9 @@
         align-items: center;
     }
 
+    .hero-sec{
+        flex-direction: column-reverse;
+    }
     .nav-links {
         display: none;
     }
@@ -72,9 +75,6 @@
         font-size: 0.9rem;
     }   */
 
-    .hero-sec {
-        flex-direction: column;
-    }
 
     .hero-left {
         width: 60vw;
@@ -134,6 +134,8 @@
         padding: 2rem 0;
         overflow: hidden;
     }
+
+    
 
     .hero-left {
         width: 100%;

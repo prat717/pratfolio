@@ -253,8 +253,9 @@ a {
 }
 
 
-.hero-right img {
+.hero-right img{
     border-radius: 8px;
+    max-width: 400px;
 }
 
 /*Services section*/
