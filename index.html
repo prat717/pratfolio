@@ -1,33 +1,185 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratfolio-Home</title>
     <link rel="stylesheet" href="style.css">
-    <title>My Portfolio</title>
+    <link rel="stylesheet" href="media.css">
 </head>
+
 <body>
-    <nav>
-        <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <nav class="flex">
+
+        <div class="nav-left flex">
+            <img src="/images/logo.png " alt="">
+            <div class="nav-links flex">
+                <div class="nav-link flex"> <a href="about.html">About</a>
+
+                </div>
+                <div class="nav-link flex"><a href="index.html">Home</a></div>
+                <div class="nav-link flex"> <a href="contact.html">Contact</a>
+                </div>
+                <div class="nav-link flex"> <a href="portfolio.html">Portfolio</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="nav-right flex">
+            <p><img class="padd-inline" src="/images/Ellipse 8.png" alt="">Open for work</p>
+            <button class="p-btn" onclick="window.location.href='contact.html';">Get in touch</button>
+        </div>
+
     </nav>
-    <section id="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Here are some of my projects.</p>
+    <section class="hero-sec container flex">
+        <div class="hero-left flex">
+            <h1>
+                Hello, I'm Prathamesh a Web Developer and Designer
+            </h1>
+            <p>I develope and design websites and do branding of the business by providing website and other digital
+                support for them.</p>
+            <div class="btn-sec flex">
+                <a href="/files/Prathamesh Patil Resume.pdf" download="resume"><button class="p-btn">See My
+                        Resume</button></a>
+                <button class="s-btn" onclick="window.location.href='contact.html';">Get in touch</button>
+            </div>
+        </div>
+        <div class="hero-right">
+            <img src="/images/hero img grey back.png" alt="">
+        </div>
     </section>
-    <section id="services">
-        <h2>Services</h2>
-        <ul>
-            <li>Web Development</li>
-            <li>Graphic Design</li>
-            <li>SEO Optimization</li>
-        </ul>
+    <section class="container flex services-sec">
+        <div class="services-upper flex">
+            <h2>Services I Offer</h2>
+        </div>
+        <div class="services-lower flex">
+            <div class="box-wrapper flex">
+                <div class="service-box flex">
+                    <div class="box-img flex">
+                        <img src="/images/web dev logo.png" alt="">
+                    </div>
+                    <div class="box-content flex">
+                        <h3>Web Design</h3>
+                        <p>I design stunning websites for you to boost your business</p>
+                    </div>
+                </div>
+                <div class="service-box flex">
+                    <div class="box-img flex">
+                        <img src="/images/design logo.png" alt="">
+                    </div>
+                    <div class="box-content flex">
+                        <h3>Brand Identity</h3>
+                        <p>Can Design brand Identity for a business or firm</p>
+                    </div>
+                </div>
+                <div class="service-box flex">
+                    <div class="box-img flex">
+                        <img src="/images/business logo.png" alt="">
+                    </div>
+                    <div class="box-content flex">
+                        <h3>Interior design</h3>
+                        <p>Can design your living places</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer>
-        <p>&copy; 2026 My Portfolio</p>
-    </footer>
-</body>
-</html>
+    <section class="container flex skills-sec">
+        <h2>Skills And Tool</h2>
+        <div class="skills-lower">
+            <div class="skills-tag-container">
+                <div class="skills-tag">
+                    <p>WEB DESIGN</p>
+                </div>
+                <div class="skills-tag">
+                    <p>ADOBE XD</p>
+                </div>
+                <div class="skills-tag">
+                    <p>INTERFACE DESIGN</p>
+                </div>
+                <div class="skills-tag">
+                    <p>FIGMA</p>
+                </div>
+                <div class="skills-tag">
+                    <p>WEBFLOW</p>
+                </div>
+                <div class="skills-tag">
+                    <p>BRAND IDENTITY</p>
+                </div>
+                <div class="skills-tag">
+                    <p>INTERIOR DESIGN</p>
+                </div>
+                <div class="skills-tag">
+                    <p>ADOBE ILLUSTRATOR</p>
+                </div>
+                <div class="skills-tag">
+                    <p>ADOBE PHOTOSHOP</p>
+                </div>
+                <div class="skills-tag">
+                    <p>AFTER EFFECTS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="edu-sec container flex">
+        <h2>Education</h2>
+
+        <div class="edu-content flex">
+            <div class="left">
+                <span>2024</span>
+            </div>
+            <div class="right">
+                <h3>Bachelor Of Computer Applications (BCA)</h3>
+                <p>Vivekanand College, Kolhapur</p>
+            </div>
+        </div>
+        <div class="edu-content flex">
+            <div class="left">
+                <span>2020</span>
+            </div>
+            <div class="right">
+                <h3>Jr college (Science)</h3>
+                <p>Maharshtra College, Kolhapur</p>
+            </div>
+        </div>
+        <div class="edu-content flex">
+            <div class="left">
+                <span>2018</span>
+            </div>
+            <div class="right">
+                <h3>Highschool</h3>
+                <p>Paramount School, Kolhapur</p>
+            </div>
+        </div>
+
+    </section>
+    <div class="foot">
+        <footer class="container flex">
+            <div class="upper flex">
+                <div class="column c1 flex">
+                    <a href="">About Me</a>
+                    <a href="">Resume</a>
+                    <a href="">Porfolio</a>
+                </div>
+                <div class="column c2 flex">
+                    <p><span>Office</span><br>Main road, Pushire Sub-district- Panhala, Dist- Kolhapur 416205
+                        Maharashtra,
+                        India
+                    </p>
+                </div>
+                <div class="column c3 flex">
+                    <h2>Follow me on social media</h2>
+                    <div class="social-icons flex">
+                        <img src="/images/linkedin logo.png" alt="">
+                        <img src="/images/insta logo.png" alt="">
+                        <img src="/images/github logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="lower">
+                <p>Copyright Prat Studio @2024</p>
+            </div>
+        </footer>
+    </div>
+
+
+
+</body></html>
